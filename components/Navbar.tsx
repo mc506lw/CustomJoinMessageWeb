@@ -40,10 +40,10 @@ const Navbar: React.FC = () => {
           <a href="#community" className="hover:text-white transition-colors hover:scale-105 transform">社区</a>
         </div>
 
-        <button className="bg-white hover:bg-gray-200 text-black px-4 py-1.5 rounded-full text-xs font-semibold transition-all flex items-center gap-2 hover:scale-105 active:scale-95 shadow-[0_0_10px_rgba(255,255,255,0.2)]">
-          Download
+        <a href="https://www.minebbs.com/threads/folia-customjoinmessage.42321/" className="bg-white hover:bg-gray-200 text-black px-4 py-1.5 rounded-full text-xs font-semibold transition-all flex items-center gap-2 hover:scale-105 active:scale-95 shadow-[0_0_10px_rgba(255,255,255,0.2)]">
+          下载
           <Download size={12} />
-        </button>
+        </a>
       </div>
     </nav>
   );

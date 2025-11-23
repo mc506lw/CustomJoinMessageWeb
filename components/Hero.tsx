@@ -58,10 +58,10 @@ const Hero: React.FC = () => {
         </p>
         
         <div className="flex flex-col md:flex-row gap-5 justify-center items-center">
-          <button className="group bg-white text-black px-8 py-3.5 rounded-full text-lg font-semibold transition-all hover:bg-gray-200 hover:scale-105 active:scale-95 flex items-center gap-2 shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:shadow-[0_0_30px_rgba(255,255,255,0.5)]">
+          <a href="https://www.minebbs.com/threads/folia-customjoinmessage.42321/" className="group bg-white text-black px-8 py-3.5 rounded-full text-lg font-semibold transition-all hover:bg-gray-200 hover:scale-105 active:scale-95 flex items-center gap-2 shadow-[0_0_20px_rgba(255,255,255,0.3)] hover:shadow-[0_0_30px_rgba(255,255,255,0.5)]">
             立即下载
             <ChevronRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
-          </button>
+          </a>
           <a href="#features" className="text-gray-400 hover:text-white px-6 py-3 font-medium transition-colors border border-white/10 rounded-full hover:bg-white/5 hover:border-white/30">
             了解更多 &gt;
           </a>
